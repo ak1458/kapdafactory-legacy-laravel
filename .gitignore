@@ -1,0 +1,23 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Laravel vendor
+vendor/
+
+# Laravel storage & cache
+storage/*.key
+bootstrap/cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled
+*.log
+node_modules/
