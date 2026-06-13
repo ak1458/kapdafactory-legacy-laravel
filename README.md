@@ -1,21 +1,20 @@
+# KapdaFactory Legacy — Laravel Backend
+
 [![Laravel](https://img.shields.io/badge/Laravel-Backend-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)](https://mysql.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-﻿# ðŸš€ KapdaFactory Legacy Laravel
+Enterprise-grade B2B fashion marketplace and inventory management backend. This is the original Laravel implementation of the KapdaFactory platform, handling order processing, payment workflows, and delivery logistics for tailoring businesses.
 
-Legacy enterprise-grade B2B fashion marketplace and inventory management backend. Built with Laravel.
+## Stack
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
+Laravel · PHP 8.x · MySQL · Hostinger (deployment)
 
-## ðŸŒŸ Features
-* Comprehensive implementation tailored for modern standards.
-* Secure and optimized for performance.
-* Clean architecture and easy to maintain.
+## Deployment
 
-## ðŸ’» Tech Stack
-This project is built using **Laravel** and follows best practices for modern development.
+See [HOSTINGER_DEPLOY.md](HOSTINGER_DEPLOY.md) and [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md) for detailed deployment instructions.
 
-## ðŸ› ï¸ Getting Started
-Check the CONTRIBUTING.md file for details on how to set up the project locally and start contributing.
+## License
+
+MIT
