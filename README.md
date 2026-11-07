@@ -1,20 +1,35 @@
-# KapdaFactory Legacy — Laravel Backend
+# KapdaFactory Laravel · Archive
 
-[![Laravel](https://img.shields.io/badge/Laravel-Backend-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)](https://php.net)
-[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)](https://mysql.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+Historical Laravel implementation of the KapdaFactory business application.
 
-Enterprise-grade B2B fashion marketplace and inventory management backend. This is the original Laravel implementation of the KapdaFactory platform, handling order processing, payment workflows, and delivery logistics for tailoring businesses.
+[![Status: Archived](https://img.shields.io/badge/Status-Archived-64748b?style=flat-square)](https://github.com/ak1458/kapdafactory-legacy-laravel)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-64748b?style=flat-square)](LICENSE)
 
-## Stack
+## Scope and status
 
-Laravel · PHP 8.x · MySQL · Hostinger (deployment)
+The active Next.js order-management application is maintained in kapdafactory-web-nextjs. This legacy backend remains for historical inspection. Its hosting instructions describe an older environment and must not be assumed safe or current for a fresh public deployment.
 
-## Deployment
+## Inspect the source
 
-See [HOSTINGER_DEPLOY.md](HOSTINGER_DEPLOY.md) and [HOSTINGER_DEPLOYMENT_GUIDE.md](HOSTINGER_DEPLOYMENT_GUIDE.md) for detailed deployment instructions.
+The repository’s default branch is the source of truth for the files currently available. Inspect [history](https://github.com/ak1458/kapdafactory-legacy-laravel/commits) to understand changes over time. Do not treat an archive label as a build or runtime validation.
+
+Top-level source areas: `.vscode/`, `backend/`, `deploy/`.
+
+## Setup and versions
+
+No new binary release or registry package is published by this documentation update. For historical reproduction, review the checked-in manifest and environment requirements first, use an isolated database, and keep production credentials out of the checkout. A dependency install is not proof that old integrations still work.
+
+## Historical documentation
+
+- [CONTRIBUTING.md](<CONTRIBUTING.md>)
+- [SECURITY.md](<SECURITY.md>)
+- [HOSTINGER_DEPLOY.md](<HOSTINGER_DEPLOY.md>)
+- [HOSTINGER_DEPLOYMENT_GUIDE.md](<HOSTINGER_DEPLOYMENT_GUIDE.md>)
+
+## Maintenance
+
+Keep archived material separate from the current showcase. Before deleting or consolidating it, preserve a verified backup and check branch/tag history, client obligations, references, and the canonical deployment. This README does not authorize removing a backup or third-party notice.
 
 ## License
 
-MIT
+Project code is proprietary / all rights reserved — see [LICENSE](LICENSE). Bundled framework, plugin, font, and other dependency files retain their own licenses; a root project license does not erase third-party rights.
